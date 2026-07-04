@@ -1,15 +1,15 @@
 ---
-name: crucible
+name: cruciable
 description: |
   Stress-test an idea, decision, or claim through a structured 3-round debate between two personas — an Advocate (argues for) and a Devil's Advocate (argues against). The Advocate opens each round; the Devil's Advocate responds. Across three rounds each side must engage the other's points, add something new, and never repeat an argument. Ends with a synthesis.
   Trigger whenever the user:
-  - Asks to "debate this", "argue both sides", "steelman and criticize", "play devil's advocate", or "run a crucible"
+  - Asks to "debate this", "argue both sides", "steelman and criticize", "play devil's advocate", or "run a cruciable"
   - Wants a claim or plan pressure-tested from both directions before committing
   - Says something like "convince me / talk me out of it" or "what's the case for and against"
   Do NOT use this for a simple factual question, or when the user just wants a single recommendation.
 ---
 
-# The Crucible — Two-Persona Structured Debate
+# The Cruciable — Two-Persona Structured Debate
 
 Drop an idea in; three rounds of heat come out. Two personas argue a single question in good faith — one **for**, one **against** — and what survives the pressure becomes the summary.
 
