@@ -7,3 +7,13 @@
 *.swp
 *.swo
 *~
+
+# Claude Code — local session state, settings, and context (never commit)
+.claude/
+.claude.json
+.claude.local.json
+CLAUDE.local.md
+.mcp.local.json
+
+# Local work-in-progress scratch (transient; picked up by the SessionStart hook)
+wip/
