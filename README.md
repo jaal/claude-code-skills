@@ -2,7 +2,7 @@
 
 A small collection of [Claude Code](https://docs.claude.com/en/docs/claude-code) **Skills** I built and actually use — packaged so you can drop them into your own setup.
 
-Most of them help me *think*: make a decision, pressure-test an idea from both sides, run a focused work session, or sit with something Stoic. Some help me *make* or *do*: turn a rough idea into a finished blog post, or translate a sentence between English and Polish with the register and nuance intact. They're not a framework or a product — just real tools from a working `~/.claude/skills/` folder, cleaned up and shared.
+Most of them help me *think*: make a decision, pressure-test an idea from both sides, run a focused work session, or sit with something Stoic. Some help me *make* or *do*: turn a rough idea into a finished blog post, translate a sentence between English and Polish with the register intact, or make a tangled document plain enough to read in one pass. They're not a framework or a product — just real tools from a working `~/.claude/skills/` folder, cleaned up and shared.
 
 ## What is a Claude Code Skill?
 
@@ -28,6 +28,7 @@ No code, no build step, no dependencies. Claude reads the `description`, decides
 | [**write-post**](skills/write-post/SKILL.md) | Turns a raw idea or pasted draft into a publish-ready blog post — learns the blog's current voice and frontmatter first, proposes title/slug/excerpt options, then writes. | English | "write a post", "new blogpost", "draft a note", or pasting text to shape into a post. |
 | [**translate-en-to-pl**](skills/translate-en-to-pl/SKILL.md) | Translates an English sentence into Polish the careful way: confirms the intent and register first, then offers three distinct options (faithful / natural / register shift), each with an example of use and a one-line reason. | English → Polish | "translate to Polish", "how do I say this in Polish", "przetłumacz na polski". |
 | [**translate-pl-to-en**](skills/translate-pl-to-en/SKILL.md) | The mirror of the above, Polish → English — confirms tone, then three register-aware options with examples and reasons, recovering what Polish drops (subjects, gender, particles). | Polish → English | "translate to English", "przetłumacz na angielski", or pasting a Polish sentence. |
+| [**clarify-doc**](skills/clarify-doc/SKILL.md) | Reads a document for comprehension — checks that wording is unified and that each sentence and paragraph leads to the next — then leaves its findings as invisible inline comments anchored to the exact text (`<!-- clarify[…] … -->`) and appends a plain-language rewrite. Works in a fixed order (intent → thread → wording → plainness), and answers any `<!-- @claude … -->` notes you leave it. | English | "is this clear?", "make this plainer / easier to follow", "does this hang together?", or sharing text for a clarity pass. |
 
 A few honest notes:
 
